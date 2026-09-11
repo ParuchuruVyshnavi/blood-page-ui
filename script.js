@@ -9,7 +9,7 @@ function register() {
 
     localStorage.setItem("user", JSON.stringify(user));
 
-    alert("Registered Successfully");
+    window.location="index.html";
 
 }
 
